@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FFFFFF"
+    android:background="#E4E4E4"
     tools:context=".SignUpActivity">
 
     <EditText
@@ -89,13 +89,13 @@
         android:textColor="#000000"
         android:textColorHighlight="#323232"
         android:textColorHint="#505050"
+        android:textColorLink="#171616"
         android:visibility="gone"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextLogin"
-        app:layout_constraintVertical_bias="0.0"
-        android:textColorLink="#171616" />
+        app:layout_constraintVertical_bias="0.0" />
 
     <Button
         android:id="@+id/buttonRegister"
